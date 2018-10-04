@@ -10,7 +10,7 @@ Note this coursework has a split deadline: an earlier deadline for 'stacks' and 
 
 ## Using stacks [3 marks]
 
-In `Stack.h`, implement a class `Stack` that is a Stack of `double`s.  You should implement this using `vector` class: Stack.h already contains the necessary `include` and `using` lines for this.
+In `Stack.h`, implement a class `Stack` that is a Stack of `double`s.  You should implement this using the `vector` class: Stack.h already contains the necessary `include` and `using` lines for this.
 
 Your `Stack` class needs to provide three functions:
 
