@@ -5,6 +5,9 @@ using std::cout;
 using std::endl;
 using std::ostream;
 
+#include <vector>
+using std::vector;
+
 struct Testcase {
     string target;
     int appendCost;
