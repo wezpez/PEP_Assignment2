@@ -2,6 +2,7 @@
 #define STACK_H
 
 #include <vector>
+#include <algorithm>
 #include <string>
 #include <sstream>
 #include <iostream>
@@ -67,14 +68,103 @@ void tokenizer(string input){
         tokens.push_back(temp);
     }
 
-    for(int i = 0; i < tokens.size(); i++)
-        std::cout << tokens[i] << '\n';
+    std::reverse(tokens.begin(),tokens.end());
+
+    /*for(int i = 0; i < tokens.size(); i++)
+        std::cout << tokens[i] << '\n';*/
 }
 
 
 double evaluate(string input){
-    tokenizer("3.0 4.0 +");
-    return 5;
+    vector<double> result;
+
+    tokenizer(input);
+
+
+    while (tokens.size() > 0) {
+
+
+        if (tokens.back() == "+") {
+            tokens.pop_back();
+
+            double a = result.back();
+            result.pop_back();
+            double b = result.back();
+            result.pop_back();
+
+            result.push_back(a + b);
+        } else if (tokens.back() == "*") {
+            tokens.pop_back();
+
+            double a = result.back();
+            result.pop_back();
+            double b = result.back();
+            result.pop_back();
+
+            result.push_back(a * b);
+        } else if (tokens.back() == "-") {
+            tokens.pop_back();
+
+            double a = result.back();
+            result.pop_back();
+            double b = result.back();
+            result.pop_back();
+
+            result.push_back(b - a);
+        } else if (tokens.back() == "/") {
+            tokens.pop_back();
+
+            double a = result.back();
+            result.pop_back();
+            double b = result.back();
+            result.pop_back();
+
+            result.push_back(b / a);
+        }
+        else{
+            double a = std::stod(tokens.back());
+            result.push_back(a);
+            tokens.pop_back();
+        }
+
+    }
+
+    return result.back();
+
+
+
+/*
+        switch (tokens[(tokens.size() - 1)]){
+            case "+" :
+                tokens.pop_back();
+                result.push_back((result.pop_back()) + result.pop_back());
+                break;
+
+            case "-" :
+                tokens.pop_back();
+                double a = result.pop_back();
+                double b = result.pop_back();
+                result.push_back(b - a);
+                break;
+
+            case "*" :
+                tokens.pop_back();
+                result.push_back((result.pop_back()) * result.pop_back());
+                break;
+
+            case "/" :
+                tokens.pop_back();
+                double a = result.pop_back();
+                double b = result.pop_back();
+                result.push_back(b / a);
+                break;
+
+            default: result.push_back(tokens.pop_back());
+
+        } */
+
+
+
 }
 
 // Do not write anything below this line
