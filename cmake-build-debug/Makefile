@@ -150,60 +150,6 @@ MapOfItemsTest.cpp.s:
 	$(MAKE) -f CMakeFiles/assignment20182_wezpez.dir/build.make CMakeFiles/assignment20182_wezpez.dir/MapOfItemsTest.cpp.s
 .PHONY : MapOfItemsTest.cpp.s
 
-TestStack.o: TestStack.cpp.o
-
-.PHONY : TestStack.o
-
-# target to build an object file
-TestStack.cpp.o:
-	$(MAKE) -f CMakeFiles/assignment20182_wezpez.dir/build.make CMakeFiles/assignment20182_wezpez.dir/TestStack.cpp.o
-.PHONY : TestStack.cpp.o
-
-TestStack.i: TestStack.cpp.i
-
-.PHONY : TestStack.i
-
-# target to preprocess a source file
-TestStack.cpp.i:
-	$(MAKE) -f CMakeFiles/assignment20182_wezpez.dir/build.make CMakeFiles/assignment20182_wezpez.dir/TestStack.cpp.i
-.PHONY : TestStack.cpp.i
-
-TestStack.s: TestStack.cpp.s
-
-.PHONY : TestStack.s
-
-# target to generate assembly for a file
-TestStack.cpp.s:
-	$(MAKE) -f CMakeFiles/assignment20182_wezpez.dir/build.make CMakeFiles/assignment20182_wezpez.dir/TestStack.cpp.s
-.PHONY : TestStack.cpp.s
-
-TestStringCons.o: TestStringCons.cpp.o
-
-.PHONY : TestStringCons.o
-
-# target to build an object file
-TestStringCons.cpp.o:
-	$(MAKE) -f CMakeFiles/assignment20182_wezpez.dir/build.make CMakeFiles/assignment20182_wezpez.dir/TestStringCons.cpp.o
-.PHONY : TestStringCons.cpp.o
-
-TestStringCons.i: TestStringCons.cpp.i
-
-.PHONY : TestStringCons.i
-
-# target to preprocess a source file
-TestStringCons.cpp.i:
-	$(MAKE) -f CMakeFiles/assignment20182_wezpez.dir/build.make CMakeFiles/assignment20182_wezpez.dir/TestStringCons.cpp.i
-.PHONY : TestStringCons.cpp.i
-
-TestStringCons.s: TestStringCons.cpp.s
-
-.PHONY : TestStringCons.s
-
-# target to generate assembly for a file
-TestStringCons.cpp.s:
-	$(MAKE) -f CMakeFiles/assignment20182_wezpez.dir/build.make CMakeFiles/assignment20182_wezpez.dir/TestStringCons.cpp.s
-.PHONY : TestStringCons.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -216,12 +162,6 @@ help:
 	@echo "... MapOfItemsTest.o"
 	@echo "... MapOfItemsTest.i"
 	@echo "... MapOfItemsTest.s"
-	@echo "... TestStack.o"
-	@echo "... TestStack.i"
-	@echo "... TestStack.s"
-	@echo "... TestStringCons.o"
-	@echo "... TestStringCons.i"
-	@echo "... TestStringCons.s"
 .PHONY : help
 
 

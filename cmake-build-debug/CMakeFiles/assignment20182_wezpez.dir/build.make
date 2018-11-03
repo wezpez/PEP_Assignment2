@@ -70,47 +70,17 @@ CMakeFiles/assignment20182_wezpez.dir/MapOfItemsTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assignment20182_wezpez.dir/MapOfItemsTest.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/patrickwhyte/Documents/GitHub/assignment20182-wezpez/MapOfItemsTest.cpp -o CMakeFiles/assignment20182_wezpez.dir/MapOfItemsTest.cpp.s
 
-CMakeFiles/assignment20182_wezpez.dir/TestStack.cpp.o: CMakeFiles/assignment20182_wezpez.dir/flags.make
-CMakeFiles/assignment20182_wezpez.dir/TestStack.cpp.o: ../TestStack.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/patrickwhyte/Documents/GitHub/assignment20182-wezpez/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/assignment20182_wezpez.dir/TestStack.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/assignment20182_wezpez.dir/TestStack.cpp.o -c /Users/patrickwhyte/Documents/GitHub/assignment20182-wezpez/TestStack.cpp
-
-CMakeFiles/assignment20182_wezpez.dir/TestStack.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assignment20182_wezpez.dir/TestStack.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/patrickwhyte/Documents/GitHub/assignment20182-wezpez/TestStack.cpp > CMakeFiles/assignment20182_wezpez.dir/TestStack.cpp.i
-
-CMakeFiles/assignment20182_wezpez.dir/TestStack.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assignment20182_wezpez.dir/TestStack.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/patrickwhyte/Documents/GitHub/assignment20182-wezpez/TestStack.cpp -o CMakeFiles/assignment20182_wezpez.dir/TestStack.cpp.s
-
-CMakeFiles/assignment20182_wezpez.dir/TestStringCons.cpp.o: CMakeFiles/assignment20182_wezpez.dir/flags.make
-CMakeFiles/assignment20182_wezpez.dir/TestStringCons.cpp.o: ../TestStringCons.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/patrickwhyte/Documents/GitHub/assignment20182-wezpez/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/assignment20182_wezpez.dir/TestStringCons.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/assignment20182_wezpez.dir/TestStringCons.cpp.o -c /Users/patrickwhyte/Documents/GitHub/assignment20182-wezpez/TestStringCons.cpp
-
-CMakeFiles/assignment20182_wezpez.dir/TestStringCons.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assignment20182_wezpez.dir/TestStringCons.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/patrickwhyte/Documents/GitHub/assignment20182-wezpez/TestStringCons.cpp > CMakeFiles/assignment20182_wezpez.dir/TestStringCons.cpp.i
-
-CMakeFiles/assignment20182_wezpez.dir/TestStringCons.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assignment20182_wezpez.dir/TestStringCons.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/patrickwhyte/Documents/GitHub/assignment20182-wezpez/TestStringCons.cpp -o CMakeFiles/assignment20182_wezpez.dir/TestStringCons.cpp.s
-
 # Object files for target assignment20182_wezpez
 assignment20182_wezpez_OBJECTS = \
-"CMakeFiles/assignment20182_wezpez.dir/MapOfItemsTest.cpp.o" \
-"CMakeFiles/assignment20182_wezpez.dir/TestStack.cpp.o" \
-"CMakeFiles/assignment20182_wezpez.dir/TestStringCons.cpp.o"
+"CMakeFiles/assignment20182_wezpez.dir/MapOfItemsTest.cpp.o"
 
 # External object files for target assignment20182_wezpez
 assignment20182_wezpez_EXTERNAL_OBJECTS =
 
 assignment20182_wezpez: CMakeFiles/assignment20182_wezpez.dir/MapOfItemsTest.cpp.o
-assignment20182_wezpez: CMakeFiles/assignment20182_wezpez.dir/TestStack.cpp.o
-assignment20182_wezpez: CMakeFiles/assignment20182_wezpez.dir/TestStringCons.cpp.o
 assignment20182_wezpez: CMakeFiles/assignment20182_wezpez.dir/build.make
 assignment20182_wezpez: CMakeFiles/assignment20182_wezpez.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/patrickwhyte/Documents/GitHub/assignment20182-wezpez/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable assignment20182_wezpez"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/patrickwhyte/Documents/GitHub/assignment20182-wezpez/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable assignment20182_wezpez"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/assignment20182_wezpez.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

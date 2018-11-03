@@ -1,7 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/assignment20182_wezpez.dir/MapOfItemsTest.cpp.o"
-  "CMakeFiles/assignment20182_wezpez.dir/TestStack.cpp.o"
-  "CMakeFiles/assignment20182_wezpez.dir/TestStringCons.cpp.o"
   "assignment20182_wezpez.pdb"
   "assignment20182_wezpez"
 )

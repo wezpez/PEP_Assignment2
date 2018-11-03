@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/patrickwhyte/Documents/GitHub/assignment20182-wezpez/Item.h
+iostream
+-
+cmath
+-
+
+/Users/patrickwhyte/Documents/GitHub/assignment20182-wezpez/MapOfItems.h
+Item.h
+/Users/patrickwhyte/Documents/GitHub/assignment20182-wezpez/Item.h
+vector
+-
+iostream
+-
+algorithm
+-
+
+/Users/patrickwhyte/Documents/GitHub/assignment20182-wezpez/MapOfItemsTest.cpp
+MapOfItems.h
+/Users/patrickwhyte/Documents/GitHub/assignment20182-wezpez/MapOfItems.h
+string
+-
+sstream
+-
+iostream
+-
+

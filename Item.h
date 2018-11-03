@@ -16,6 +16,7 @@ private:
     double longitude;
     string name;
     int time;
+    bool travelled;
 
 public:
     Item(double lat, double lon, string n, int t) {
@@ -23,6 +24,7 @@ public:
         longitude = lon;
         name = n;
         time = t;
+        travelled = false;
     }
 
 
@@ -43,9 +45,18 @@ public:
         return time;
     }
 
+    bool getTravelled(){
+        return travelled;
+    }
+
+    void setTravelled(bool b){
+        travelled = b;
+    }
+
+    //calculates the distance between two items in meters
     double distanceTo(Item item1){
 
-        int R = 6373000; // The radius of the Earth
+        const int R = 6373000; // The radius of the Earth
 
 
 
@@ -86,6 +97,4 @@ ostream & operator<< (ostream & o, Item & item)
 // don't write any code below this line
 
 #endif
-
-
 

@@ -22,10 +22,7 @@ private:
 public:
 
     Stack()
-            : vStack(0)
-    {
-
-    }
+            : vStack(0) {}
 
     bool empty(){
         if (count == 0)

@@ -10,6 +10,4 @@ add_executable(assignment20182_wezpez
         MapOfItems.h
         MapOfItemsTest.cpp
         Stack.h
-        StringConstruction.h
-        TestStack.cpp
-        TestStringCons.cpp)
+        )

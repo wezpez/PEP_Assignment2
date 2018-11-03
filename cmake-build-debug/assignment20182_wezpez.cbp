@@ -94,15 +94,6 @@
 		<Unit filename="/Users/patrickwhyte/Documents/GitHub/assignment20182-wezpez/Stack.h">
 			<Option target="assignment20182_wezpez"/>
 		</Unit>
-		<Unit filename="/Users/patrickwhyte/Documents/GitHub/assignment20182-wezpez/StringConstruction.h">
-			<Option target="assignment20182_wezpez"/>
-		</Unit>
-		<Unit filename="/Users/patrickwhyte/Documents/GitHub/assignment20182-wezpez/TestStack.cpp">
-			<Option target="assignment20182_wezpez"/>
-		</Unit>
-		<Unit filename="/Users/patrickwhyte/Documents/GitHub/assignment20182-wezpez/TestStringCons.cpp">
-			<Option target="assignment20182_wezpez"/>
-		</Unit>
 		<Unit filename="/Users/patrickwhyte/Documents/GitHub/assignment20182-wezpez/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

@@ -41,7 +41,7 @@ int main() {
         cout << "1: Checking that a short tour over a map with five locations, can visit them all\n";
         
         vector<Item*> tour = m.getTour(2.0);
-        
+
         
         if (!allItemsAreOkay(m.getItems(), tour)) {
             
