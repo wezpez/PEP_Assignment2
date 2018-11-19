@@ -90,9 +90,9 @@ public:
             //if it doesnt find any possible nextLocation then it will add 10000 to the currentTime and finish the while loop
             currentTime = currentTime + bestTime;
 
-
         }
 
+        //resets all the items 'travelled' bool to false
         for (int i = 0; i < items.size(); i++){
             items[i].setTravelled(false);
         }
